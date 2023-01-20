@@ -7,7 +7,7 @@ import org.junit.Test
 
 class AndroidMovieDataFetcherTest {
 
-    val mainScope = MainScope()
+    private val mainScope = MainScope()
 
     @Test
     fun testExample() {

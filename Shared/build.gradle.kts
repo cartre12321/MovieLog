@@ -70,3 +70,8 @@ android {
         targetSdk = 33
     }
 }
+dependencies {
+    androidTestImplementation("org.junit.jupiter:junit-jupiter")
+    androidTestImplementation("org.junit.jupiter:junit-jupiter")
+    androidTestImplementation("junit:junit:4.13.2")
+}

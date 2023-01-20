@@ -13,6 +13,7 @@ class AndroidPlatform : Platform {
 actual fun getPlatform(): Platform = AndroidPlatform()
 
 actual fun httpClient(config: HttpClientConfig<*>.() -> Unit) = HttpClient(OkHttp) {
+    config(this)
     install(ContentNegotiation) {
         json(Json {
             prettyPrint = true
